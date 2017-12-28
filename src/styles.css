@@ -1,0 +1,23 @@
+/*global styles */
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1 {
+  font-size: 3em;
+  color: #eee;
+  display: inline-block;
+}
+
+h1.blastOff {
+  font-size: 6em;	
+  color: red;
+}
