@@ -1,0 +1,4 @@
+<h1 *ngIf="!countCompleted">
+            {{(hoursDisplay) && (hoursDisplay <= 59) ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}} <br/>
+</h1>
+<h1 *ngIf="countCompleted" class="blastOff">{{ message }}</h1>

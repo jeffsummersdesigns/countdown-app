@@ -1,0 +1,11 @@
+button {
+  font-size: 1.1em;
+  font-weight: 600;
+  background: #ddd;
+  color: #333;
+  padding: .5em;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 9px #000;
+  font-family: Helvetica Neue;
+}

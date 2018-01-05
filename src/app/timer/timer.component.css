@@ -1,0 +1,12 @@
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1.blastOff {
+  font-size: 6em;	
+  color: red;
+}
